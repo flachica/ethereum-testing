@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "completeSadFlowLevel0",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "completeSadFlowLevel1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "completeSadFlowLevel2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "states",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/EthereumStateMachine_SadFlow_test.sol": "EthereumStateMachineTest"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EthereumStateMachine.sol": {
+			"keccak256": "0xd0b99b069ef93da92bc01a743b58a068c2b8c846b7784ba63b3b91b091ba74b9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://72dba5878de48cf2085699cd7b2b4c2ff5e08b2640e9f3e85775d2fb1b76ef12",
+				"dweb:/ipfs/QmfKJWAKZGJZvhnYWgwHNds7gU7cnQEAM1ix7noBBot8H2"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/EthereumStateMachine_SadFlow_test.sol": {
+			"keccak256": "0x5deb69a338e7340d8c3c736ec90aeeb3f2551f8ed5862515d2226caa0ea265f2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://842ddc763a760e1e876f316ec1d6e5e2faa1afda7bcf26e9ae73b43340e77b7d",
+				"dweb:/ipfs/QmNsw1Aa6modDtJRhxcfWMCVD6UXQbhXVmnE85dCiRKF6A"
+			]
+		}
+	},
+	"version": 1
+}
